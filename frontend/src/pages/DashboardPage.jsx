@@ -1,7 +1,7 @@
 // src/pages/DashboardPage.jsx
 import React from 'react';
 import { useAuth } from '../hooks/useAuth';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs-Temp";
 import PurchasesTab from '../components/dashboard/PurchasesTab';
 import ListingsTab from '../components/dashboard/ListingsTab'; // ✨ IMPORT
 import { Card, CardDescription, CardTitle } from '@/components/ui/Card-Temp';

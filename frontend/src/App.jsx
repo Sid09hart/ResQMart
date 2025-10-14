@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import { useAuth } from './hooks/useAuth';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { Toaster } from "@/components/ui/Toaster";
+import { Toaster } from "@/components/ui/Toaster-Temp";
 import HomePage from './pages/HomePage';
 import BrowsePage from './pages/BrowsePage';
 import ProductDetailPage from './pages/ProductDetailPage';
