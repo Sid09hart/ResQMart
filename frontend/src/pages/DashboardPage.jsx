@@ -4,8 +4,8 @@ import { useAuth } from '../hooks/useAuth';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs";
 import PurchasesTab from '../components/dashboard/PurchasesTab';
 import ListingsTab from '../components/dashboard/ListingsTab'; // ✨ IMPORT
-import { Card, CardDescription, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card, CardDescription, CardTitle } from '@/components/ui/Card-Temp';
+import { Button } from '@/components/ui/Button-Temp';
 import { Link } from 'react-router-dom';
 
 export default function DashboardPage() {

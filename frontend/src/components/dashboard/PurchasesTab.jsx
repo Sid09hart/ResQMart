@@ -7,9 +7,9 @@ import {
   CardHeader,
   CardTitle,
   CardDescription,
-} from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
+} from "@/components/ui/Card-Temp";
+import { Badge } from "@/components/ui/Badge-Temp";
+import { Button } from "@/components/ui/Button-Temp";
 import { RefreshCw } from "lucide-react"; // Import a refresh icon
 
 export default function PurchasesTab() {

@@ -1,8 +1,8 @@
 // src/components/Footer.jsx
 
 import React, { useState } from 'react';
-import { Input } from '@/components/ui/Input';
-import { Button } from '@/components/ui/Button';
+import { Input } from '@/components/ui/Input-Temp';
+import { Button } from '@/components/ui/Button-Temp';
 import { subscribeToNewsletter } from '../lib/api';
 import Logo from './Logo';
 

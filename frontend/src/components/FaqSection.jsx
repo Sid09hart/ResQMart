@@ -6,7 +6,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/Accordion";
+} from "@/components/ui/Accordion-temp";
 import { Plus, Minus } from 'lucide-react';
 
 // ✨ New, meaningful SVG illustration: "User with Green & Orange Questions"

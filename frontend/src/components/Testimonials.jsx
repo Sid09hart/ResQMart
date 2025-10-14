@@ -1,6 +1,6 @@
 // src/components/Testimonialimport React from 'react';
 import { motion } from 'framer-motion'; // Import motion
-import { Card, CardContent } from '@/components/ui/Card';
+import { Card, CardContent } from '@/components/ui/Card-Temp';
 
 
 const StarIcon = ({ className }) => (

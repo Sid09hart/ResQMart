@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ProductCard from './ProductCard';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/Button-Temp';
 import { Link } from 'react-router-dom';
 import { fetchProducts } from '../lib/api'; // ✨ Import API function
 

@@ -1,9 +1,9 @@
 // src/components/FilterSidebar.jsx
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { Checkbox } from '@/components/ui/Checkbox';
-import { Slider } from '@/components/ui/Slider';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/Select';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card-Temp';
+import { Checkbox } from '@/components/ui/Checkbox-Temp';
+import { Slider } from '@/components/ui/Slider-Temp';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/Select-Temp';
 
 export default function FilterSidebar({ filters, onFilterChange }) {
   const categories = ['Bakery', 'Dairy & Eggs', 'Fruits & Vegetables', 'Packaged Goods'];

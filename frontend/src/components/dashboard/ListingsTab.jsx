@@ -2,8 +2,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { getMyListingsApi } from '../../lib/api';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card-Temp';
+import { Button } from '@/components/ui/Button-Temp';
 import { Link } from 'react-router-dom';
 import { Trash2, Edit } from 'lucide-react';
 

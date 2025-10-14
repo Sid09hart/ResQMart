@@ -3,10 +3,10 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
-import { Button } from '@/components/ui/Button';
-import { Input } from '@/components/ui/Input';
-import { Label } from '@/components/ui/Label';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
+import { Button } from '@/components/ui/Button-Temp';
+import { Input } from '@/components/ui/Input-Temp';
+import { Label } from '@/components/ui/Label-Temp';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card-Temp';
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');

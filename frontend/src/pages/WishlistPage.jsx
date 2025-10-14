@@ -3,7 +3,7 @@ import React from 'react';
 import { useAuth } from '../hooks/useAuth';
 import ProductCard from '../components/ProductCard';
 import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/Button-Temp';
 
 export default function WishlistPage() {
     const { wishlist } = useAuth();

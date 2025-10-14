@@ -1,7 +1,7 @@
 // src/components/MockPaymentModal.jsx
 import React from 'react';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/Dialog";
-import { Button } from '@/components/ui/Button';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/Dialog-Temp";
+import { Button } from '@/components/ui/Button-Temp';
 
 export default function MockPaymentModal({ isOpen, onOpenChange, total, onSuccess, onFailure }) {
   return (

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/Button-Temp';
 import { Link } from 'react-router-dom';
 
 export default function ProductCard({ product }) {

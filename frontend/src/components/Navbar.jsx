@@ -1,12 +1,12 @@
 // src/components/Navbar.jsx
 import React, { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/Button-Temp';
 import Logo from './Logo';
 import { Link, useNavigate } from 'react-router-dom'; // ✨ Import useNavigate
 import CartSheet from './CartSheet';
 import { useAuth } from '../hooks/useAuth';
 import { useCart } from '../hooks/useCart';
-import { SheetTrigger } from "@/components/ui/Sheet";
+import { SheetTrigger } from "@/components/ui/Sheet-Temp";
 import { 
     DropdownMenu, 
     DropdownMenuContent, 
@@ -14,7 +14,7 @@ import {
     DropdownMenuLabel, 
     DropdownMenuSeparator, 
     DropdownMenuTrigger 
-} from "@/components/ui/dropdown-menu";
+} from "@/components/ui/Dropdown-menu-Temp";
 import { User as UserIcon, LogOut, LayoutDashboard, Heart, Package, UserCircle } from 'lucide-react'; // ✨ Import more icons
 
 const CartIcon = () => (

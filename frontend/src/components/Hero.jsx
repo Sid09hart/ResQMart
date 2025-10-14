@@ -2,8 +2,8 @@
 import React, { useRef, useState } from 'react'; // ✨ Import useState
 import { useNavigate } from 'react-router-dom'; // ✨ Import useNavigate
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Input } from '@/components/ui/Input';
-import { Button } from '@/components/ui/Button';
+import { Input } from '@/components/ui/Input-Temp';
+import { Button } from '@/components/ui/Button-Temp';
 
 
 // A simple search icon component

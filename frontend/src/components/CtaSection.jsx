@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Input } from '@/components/ui/Input';
-import { Button } from '@/components/ui/Button';
+import { Input } from '@/components/ui/Input-Temp';
+import { Button } from '@/components/ui/Button-Temp';
 import { motion } from 'framer-motion';
 
 const SearchIcon = () => (

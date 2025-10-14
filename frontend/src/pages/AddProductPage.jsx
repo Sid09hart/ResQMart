@@ -1,19 +1,19 @@
 // src/pages/AddProductPage.jsx
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '@/components/ui/Button';
-import { Input } from '@/components/ui/Input';
-import { Label } from '@/components/ui/Label';
-import { Textarea } from '@/components/ui/Textarea';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
-import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/Popover';
-import { Calendar } from '@/components/ui/Calendar';
+import { Button } from '@/components/ui/Button-Temp';
+import { Input } from '@/components/ui/Input-Temp';
+import { Label } from '@/components/ui/Label-Temp';
+import { Textarea } from '@/components/ui/Textarea-Temp';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card-Temp';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/Popover-Temp';
+import { Calendar } from '@/components/ui/Calendar-Temp';
 import { uploadProduct } from '../lib/api';
 import { format } from 'date-fns';
 import { cn } from '@/lib/utils';
 import { Calendar as CalendarIcon, Package, Tag, FileImage, MapPin } from 'lucide-react';
 import MapInput from '../components/MapInput';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/Select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/Select-Temp';
 import { useAuth } from '../hooks/useAuth';
 
 const FormSection = ({ title, icon, children }) => (

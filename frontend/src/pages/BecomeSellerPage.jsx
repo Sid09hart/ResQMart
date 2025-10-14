@@ -2,11 +2,11 @@
 import React, { useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { applyToSellApi } from '../lib/api';
-import { Button } from '@/components/ui/Button';
-import { Input } from '@/components/ui/Input';
-import { Label } from '@/components/ui/Label';
-import { Textarea } from '@/components/ui/Textarea';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
+import { Button } from '@/components/ui/Button-Temp';
+import { Input } from '@/components/ui/Input-Temp';
+import { Label } from '@/components/ui/Label-Temp';
+import { Textarea } from '@/components/ui/Textarea-Temp';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card-Temp';
 import { toast } from 'sonner';
 import { useNavigate } from 'react-router-dom';
 
