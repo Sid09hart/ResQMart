@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // ✨ IMPORT Link
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetFooter, SheetClose } from "@/components/ui/Sheet-Temp" // ✨ 1. Import SheetClose
 import { useCart } from '../hooks/useCart';
-import { Button } from './ui/Button-Temp';
+import { Button } from './ui/Button';
 import { Trash2 } from 'lucide-react';
 
 export default function CartSheet({ children }) {
