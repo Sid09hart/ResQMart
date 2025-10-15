@@ -46,7 +46,7 @@ app.use('/api/users', userRoutes); // ✨ ADD THIS LINE
 
 
 
-// app.use('/',(req,res)=> res.send('ResQMart is ok'))
+app.use('/',(req,res)=> res.send('ResQMart is ok'))
 /** Start server **/
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
