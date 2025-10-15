@@ -20,7 +20,7 @@ connectDB();
 
 /** CORS - allow frontend origin **/
 // Backend/index.js
-const allowedOrigins = ['http://localhost:5173', process.env.FRONTEND_URL,'https://res-q-mart.vercel.app/'];
+const allowedOrigins = ['http://localhost:5173', process.env.FRONTEND_URL,'https://res-q-mart.vercel.app'];
 app.use(cors({
     origin: function (origin, callback) {
         if (!origin || allowedOrigins.indexOf(origin) !== -1) {
