@@ -19,7 +19,18 @@ const app = express();
 connectDB();
 
 /** CORS - allow frontend origin **/
-app.use(cors({origin: 'http://localhost:5173', credentials:true}));
+// Backend/index.js
+const allowedOrigins = ['http://localhost:5173', process.env.FRONTEND_URL];
+app.use(cors({
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    credentials: true
+}));
 
 /** Body parsers **/
 app.use(express.json());
