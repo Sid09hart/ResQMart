@@ -11,7 +11,7 @@ const cartRoutes = require('./routes/cartRoutes'); // ✨ IMPORT
 const orderRoutes = require('./routes/orderRoutes'); // ✨ IMPORT
 const wishlistRoutes = require('./routes/wishlistRoutes'); // ✨ IMPORT
 const userRoutes = require('./routes/userRoutes'); // ✨ IMPORT
-
+const aiRoutes = require('./routes/aiRoutes'); // ✨ IMPORT
 
 const app = express();
 
@@ -36,6 +36,7 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+
 app.use('/api/auth',authRoutes);
 app.use('/api/products',productRoutes);
 app.use('/api/newsletter', newsletterRoutes); // ✨ ADD THIS LINE
@@ -43,7 +44,7 @@ app.use('/api/cart', cartRoutes); // ✨ ADD THIS LINE
 app.use('/api/orders', orderRoutes); // ✨ ADD THIS LINE
 app.use('/api/wishlist', wishlistRoutes); // ✨ ADD THIS LINE
 app.use('/api/users', userRoutes); // ✨ ADD THIS LINE
-
+app.use('/api/ai',aiRoutes); // ✨ ADD THIS LINE
 
 
 app.use('/',(req,res)=> res.send('ResQMart is ok'))

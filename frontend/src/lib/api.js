@@ -3,6 +3,8 @@
 import axios from 'axios';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// const LOCAL_API = import.meta.env.VITE_LOCAL_API_URL;
+
 
 // ✨ Update the function to accept a 'limit' parameter
 export const fetchProducts = async (filters, userLocation, limit) => {
@@ -137,4 +139,12 @@ export const getMyListingsApi = async () => {
 export const applyToSellApi = async (applicationData) => {
     const response = await axios.post(`${API_URL}/users/apply-to-sell`, applicationData);
     return response.data;
+};
+
+export const generateDescriptionApi = async (keywords) => 
+{
+  const response = await axios.post(`${API_URL}/ai/generate-description`, { keywords });
+  // const response1 = await axios.post(`${LOCAL_API}/ai/generate-description`, { keywords });
+
+  return response.data;
 };
